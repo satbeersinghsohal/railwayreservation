@@ -1,0 +1,40 @@
+h1 {
+    padding-top: 10%;
+    padding-left: 23%;
+}
+.floatright {
+    float: right;
+}
+.backgroundcolor{
+    background-color: #eceeef;
+    margin: 0;
+    overflow: hidden;
+    padding-bottom: 7%;
+}
+
+.registerform {
+    max-width: 250px;
+    margin-left: 10px;
+}
+
+.formgroup {
+    padding: 15px 7px 7px;
+    margin: 40px 0 0 0;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5),-2px -2px 4px rgba(0,0,0,0.5);
+}
+
+.formbody{
+    background-color: #f7f7f7;
+    max-width: 400px;
+}
+
+.textspace{
+    padding-right: 10px;
+}
+
+.img {
+    padding-left: 10%;
+    height:70%;
+    width: 70%;
+}

@@ -1,0 +1,13 @@
+.App-main{
+    margin:0;
+    padding:0;
+}
+
+.lightbackground{
+    background-color: #eee;
+}
+
+.floatright{
+    padding: -1px 0;
+    float:right;
+}

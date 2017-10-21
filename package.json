@@ -1,0 +1,26 @@
+{
+  "name": "swag-shop-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "history": "^1.13.1",
+    "mongoose": "^4.12.1",
+    "react": "^16.0.0",
+    "react-cookie": "^2.1.1",
+    "react-dom": "^16.0.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-routes": "^0.2.6",
+    "react-scripts": "1.0.14",
+    "redux-react-session": "^2.1.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
