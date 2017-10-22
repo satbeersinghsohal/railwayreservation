@@ -7,7 +7,7 @@ class HttpSevice {
             console.log(useremail+' ' +userpassword)
             var options = {
                     method: 'POST',
-                    uri: 'http://localhost:3004/passenger',
+                    uri: 'https://railwayreservationtest1.herokuapp.com/passenger',
                     body: {
                     email: useremail,
                     password: userpassword
@@ -29,7 +29,7 @@ class HttpSevice {
             console.log(useremail+' ' +userpassword)
             var options = {
                     method: 'POST',
-                    uri: 'http://localhost:3004/passenger/login',
+                    uri: 'https://railwayreservationtest1.herokuapp.com/passenger/login',
                     body: {
                     email: useremail,
                     password: userpassword
@@ -51,7 +51,7 @@ class HttpSevice {
             console.log(useremail+' ' +userpassword)
             var options = {
                     method: 'POST',
-                    uri: 'http://localhost:3004/admin',
+                    uri: 'https://railwayreservationtest1.herokuapp.com/admin',
                     body: {
                     email: useremail,
                     password: userpassword
@@ -73,7 +73,7 @@ class HttpSevice {
             console.log(useremail+' '+pname+' ' +pfrom+' '+pto+' balance'+ pbalance);
             var options = {
                     method: 'POST',
-                    uri: 'http://localhost:3004/ticket',
+                    uri: 'https://railwayreservationtest1.herokuapp.com/ticket',
                     body: {
                     email: useremail,
                     passengername: pname,
@@ -99,7 +99,7 @@ class HttpSevice {
         var promise = new Promise((resolve, reject) => {
             var options = {
                     method: 'POST',
-                    uri: 'http://localhost:3004/addtrain',
+                    uri: 'https://railwayreservationtest1.herokuapp.com/addtrain',
                     body: {
                     email: useremail,
                     trains: trains
